@@ -20,6 +20,12 @@ api_functions.py - This is where the good stuff is.
     under that item
     
 ~ items_from_endpoint (id=context_id, direct_url=direct_url):
+
+setup_api_call.py - example of how to specify api_wrapper_functions with endpoints 
+
+report_all_xtools - example of use, in this case using Courses api to get all courses and the iterate over, looking for exteranal tools 
+
+
     
 
 
