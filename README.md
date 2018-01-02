@@ -4,6 +4,7 @@ Development of functions for retrieving data from Canvas. The primary tool, the 
 
 Files:
 api_functions.py - This is where the good stuff is.
+
 ~ api_wrapper_function (endpoint=None, authorization=None, direct_url='', filter_fn=(lambda x: True), context_id=0):
     The wrapper purpose is to provide a closure around an inner function, items_from_enpoint, and return it with 
     all the connection,authorization, filtering baked-into the function. 
