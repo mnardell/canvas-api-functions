@@ -3,6 +3,7 @@
 Development of functions for retrieving data from Canvas. The primary tool, the api_wrapper_function (and its inner function items_from_enpoint) provide a Python generator interface for an enpoint. Generators allow the client code to access the endpoint as an iteraterable thing (e.g. we can pull items out of the endpoint from a for loop). 
 
 Files:
+
 ~ api_functions.py - This is where the good stuff is.
 
 - api_wrapper_function(endpoint=None, authorization=None, direct_url='', filter_fn=(lambda x: True), context_id=0):
